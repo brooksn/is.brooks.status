@@ -195,7 +195,6 @@ $.sendPost = function() {
 		}, function(postcallback) {
 			Ti.API.info('postcallback:');
 			Ti.API.info(JSON.stringify(postcallback, null, '  '));
-			alert('done!');
 		});
 
 	} else {
