@@ -1,0 +1,7 @@
+{
+	"id": "is.brooks.status",
+	"name": "is.brooks.status",
+	"description": "a view for composing a Tent status",
+	"platforms": "ios",
+	"version": "1.0"
+}

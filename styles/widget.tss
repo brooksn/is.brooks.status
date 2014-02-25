@@ -1,0 +1,45 @@
+"#container": {
+	width: '100%',
+	height: '100%',
+	top: 0,
+	backgroundColor: 'rgba(255,255,255,0.7)'
+}
+"#statusarea": {
+	top: 0,
+	width: '100%',
+	height: 250,
+	backgroundColor: 'white'
+}
+"#buttons": {
+	layout: 'horizontal',
+	width: '100%',
+	top: 250,
+	backgroundColor: 'blue',
+	height: 28
+}
+".statusctrl": {
+	width: 28,
+	height: 28,
+	left: 10,
+	tintColor: "white"
+}
+"#mention": {
+	image: "m24.png"
+}
+"#photo": {
+	image: "cam24.png"
+}
+"#photobg": {
+	right: '-38'
+}
+"#privacy": {
+	image: "lo24.png"
+}
+"#location": {
+	image: "pin24.png"
+}
+"#charcount": {
+	width: Ti.UI.SIZE,
+	color: 'white'
+}
+

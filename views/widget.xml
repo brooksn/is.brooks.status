@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="container">
+		<TextArea id="statusarea" onChange="charCounter"/>
+		<View id="buttons">
+			<Button id="mention" class="statusctrl" onClick="showRels" />
+			<ImageView id="photobg" class="statusctrl" />
+			<Button id="photo" class="statusctrl" onClick="photoClick" />
+			<Button id="privacy" class="statusctrl" onClick="togglePrivacy" ispublic="true" />
+			<Button id="location" class="statusctrl" onClick="locationClick" />
+			<Label id="charcount" class="statusctrl">~0/256</Label>
+		</View>
+	</View>
+</Alloy>
